@@ -16,8 +16,8 @@ Fonts are separated by a & */
   --paragraph-font: "Noto Sans", Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: var(--accent1-color);  /* headlines on a white background */ 
-  --headline-color-on-color: var(--secondary-color); /* headlines on a colored background */ 
+  --headline-color-on-white: var(--secondary-color);  /* headlines on a white background */ 
+  --headline-color-on-color: var(--accent2-color); /* headlines on a colored background */ 
   --paragraph-color-on-white: var(--primary-color); /* paragraph text on a white background */ 
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
   --paragraph-background-color: var(--primary-color)  ;
