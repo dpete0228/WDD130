@@ -58,6 +58,13 @@ footer{
     color:#fcfbfb
 }
 
+footer p {
+    font-size: 1.2em;
+}
+footer p a:hover {
+    text-decoration: underline;
+}
+
 footer a{
     color:#98B06F;
     text-decoration: none;
