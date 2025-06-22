@@ -17,6 +17,42 @@ body {
 main section {
     text-align: center;
 }
+.rivers-header{
+    justify-items: center;
+    padding-bottom:15px;
+}
+
+.rivers-grid{
+    display: grid;
+    grid-template-columns: 6fr 1fr 6fr;
+}
+.rivers-desolation-img{
+    grid-column:1/2;
+    grid-row:2/3;
+}
+.rivers-desolation{
+    grid-column:3/4;
+    grid-row:2/3;
+}
+.rivers-salmon-img{
+    grid-column:3/4;
+    grid-row:1/2;
+}
+.rivers-grand-canyon{
+    grid-column:1/2;
+    grid-row:3/4;
+}
+.rivers-grand-canyon-img{
+    grid-column:3/4;
+    grid-row:3/4
+}
+.rivers-salmon, .rivers-desolation, .rivers-grand-canyon{
+    text-align:left;
+}
+.rivers-salmon-img, .rivers-desolation-img, .rivers-grand-canyon-img{
+    height:100%;
+    width:100%;
+}
 
 /* Header & Navigation */
 header {
@@ -101,6 +137,9 @@ h4 {
     margin-top: 10px;
 }
 
+.rivers-header h1{
+    font-size:4em;
+}
 /* Buttons */
 .button-box {
     text-align: center;
