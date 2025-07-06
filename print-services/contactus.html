@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="styles/styles.css">
     <title>3D Printing Services | 3DForge | Gallery</title>
 </head>
 <body>
@@ -20,35 +21,41 @@
         </header>
             <main class="contact-us-main">
                 <h1>Contact Us</h1>
-                <section class="contact-methods">
-                    <img src="images/Portrait.jpg" alt="Portrait of David">
-                    <h2>Ways to Contact:</h2>
-                    <h3>Email: d.m.peters03@gmail.com</h3>
-                    <h3>Phone: (435)-321-2876</h3>
-                    <h3>Fax: (435)-321-2876</h3>
-                </section>
-                <section>
-                    <h2>Submit this form to get in contact with us</h2>
-                    <div id="feedback"></div>
-                    <form action="/my-handling-form-page" method="post">
-                        <p>
-                            <label for="name">Name:</label>
-                            <input type="text" id="name" name="user_name"/>
-                        </p>
-                        <p>
-                            <label for="mail">Email:</label>
-                            <input type="email" id="mail" name="user_email"/>
-                        </p>
-                        <p>
-                            <label for="msg">Message:</label>
-                            <textarea id="msg" name="user_message"></textarea>
-                        </p>
-                        <p class="button">
-                            <button type="submit">Send your message</button>
-                        </p>
-                    </form>
-                    <img src="images/Cup-Holder.png" alt="3d printed cup holder">
-                </section>
+                <div class="contact-content">
+                    <div class="portrait">
+                        <img src="images/Portrait.jpg" alt="Portrait of David">
+                    </div>
+                    <div class="contact-methods">
+                        <h2>Ways to Contact:</h2>
+                        <h3>Email: d.m.peters03@gmail.com</h3>
+                        <h3>Phone: (435)-321-2876</h3>
+                        <h3>Fax: (435)-321-2876</h3>
+                    </div>
+                    <section class="contact-form">
+                        <h2>Submit this form to get in contact with us</h2>
+                        <div id="feedback"></div>
+                        <form action="/my-handling-form-page" method="post">
+                            <p>
+                                <label for="name">Name:</label>
+                                <input type="text" id="name" name="user_name"/>
+                            </p>
+                            <p>
+                                <label for="mail">Email:</label>
+                                <input type="email" id="mail" name="user_email"/>
+                            </p>
+                            <p>
+                                <label for="msg">Message:</label>
+                                <textarea id="msg" name="user_message"></textarea>
+                            </p>
+                            <p class="button">
+                                <button type="submit">Send your message</button>
+                            </p>
+                        </form>
+                    </section>
+                    <div class="form-image">
+                        <img src="images/past-orders/A Solo Cup Holder/collection.jpg" alt="3d printed cup holder">
+                    </div>
+                </div>
             </main>
     <footer>
         <p>3DForge &copy; 2025 - David Peters</p>
