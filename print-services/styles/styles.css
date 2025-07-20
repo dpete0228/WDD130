@@ -202,12 +202,16 @@ footer{
 
 .portrait img {
     max-width: 50%;
+    padding:30px;
+    background-color: var(--paragraph-color-on-white);
+
 }
 
 .form-image {
     display: flex;
     justify-content: center; 
     align-items: center; 
+    
 }
 
 .contact-form{
@@ -216,4 +220,6 @@ footer{
 
 .form-image img {
     max-height: 75%;
+    padding:30px;
+    background-color: var(--paragraph-color-on-white);
 }
